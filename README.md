@@ -13,9 +13,35 @@
 - [Figma](https://www.figma.com/file/BMomGVZqLZb811mDMShpLu/UI-design-Sportify-FR?node-id=0%3A1)
 - [Notion](https://www.notion.so/openclassrooms/Copy-of-Dev4U-projet-Learn-Home-6686aa4b5f44417881a4884c9af5669e)
 
-## Installation
+## Installation Backend
 
-1. Pour cloner le dépôt du projet Front-end et pouvoir ajouter votre code, veuillez saisir la commande suivante :
+1. Cloner le dépôt :
+
+```
+git clone https://github.com/OpenClassrooms-Student-Center/SportSee.git
+```
+
+2. Prérequis
+
+- [NodeJS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+
+3. Installer les dépendances :
+
+```
+yarn
+```
+
+4. Lancer le serveur :
+
+```
+yarn dev
+```
+
+
+## Installation Frontend
+
+1. Cloner le dépôt :
 
 ```
 git clone https://github.com/vatr84/P12_SportSee.git
@@ -25,10 +51,16 @@ git clone https://github.com/vatr84/P12_SportSee.git
 
 - [NodeJS](https://nodejs.org/en/)
 
-3. Installez toutes les dépendances avec la commande suivante :
+3. Installer les dépendances :
 
 ```
 npm install
+```
+
+4. Lancer le serveur :
+
+```
+npm run dev
 ```
 
 ## Liste des dépendances qui seront installées:
