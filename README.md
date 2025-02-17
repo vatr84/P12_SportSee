@@ -4,13 +4,13 @@
 
 ## Installation
 
-1. To clone the Front-end project repo and be able to add your code, please enter the following command:
+1. Pour cloner le dépôt du projet Front-end et pouvoir ajouter votre code, veuillez saisir la commande suivante :
 
 ```
 git clone https://github.com/vatr84/oc-p12-sportsee.git
 ```
 
-2. Prerequisites
+2. Prérequis
 
 - [NodeJS](https://nodejs.org/en/)
 
