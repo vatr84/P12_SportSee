@@ -2,6 +2,7 @@ import { getUserData } from '../api/getUserData'
 import Header from '../components/Header/Header'
 import Loader from '../components/Loader/Loader'
 import KeyDatas from '../components/charts/Keydatas/KeyDatas'
+import Activity from '../components/charts/Activity/Activity'
 
 import { useEffect, useState } from 'react'
 import { Navigate, useParams } from 'react-router'
@@ -46,7 +47,7 @@ export default function Profile() {
         <main>
             <div className="profil">
                 <Header userId={Number(id)} />
-
+                <Activity userId={Number(id)} />
                 <KeyDatas userId={Number(id)} />
 
             </div>
