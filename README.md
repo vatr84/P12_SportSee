@@ -48,6 +48,10 @@ git clone https://github.com/vatr84/P12_SportSee.git
 
 3. Accédez au dossier du projet :
 
+```
+cd P12_SportSee
+```
+
 4. Installer les dépendances :
 
 ```
