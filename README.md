@@ -71,6 +71,13 @@ npm run dev
 - [Prop-types](https://github.com/facebook/prop-types) sont utilisés dans les composants React pour valider les types de props (ou propriétés) que le composant reçoit. Cela garantit que les données transmises au composant ont les types attendus et évite les erreurs lors de l'exécution du programme. Les proptypes sont donc un outil utile pour améliorer la fiabilité et la maintenabilité des composants React.
 - [Recharts](https://recharts.org/en-US) est une bibliothèque de composants graphiques basée sur React pour créer des graphiques et des visualisations de données. Elle fournit une grande variété de types de graphiques couramment utilisés tels que les graphiques à barres, les graphiques à secteurs, les graphiques linéaires, les cartes, etc.
 
+## Utilisation
+
+L'application fonctionne en utilisant un mock de l'API ainsi que les vraies données API. Deux utilisateurs sont disponibles : 12 et 18. En modifiant le fichier `.env`, vous pouvez basculer entre le mode développement (mock) `VITE_APP_USE_MOCKED_DATA=true` 
+
+et production (API) `VITE_APP_USE_MOCKED_DATA=false`.
+
+
 ## Ressources
 
 - [Maquettes](https://www.figma.com/file/BMomGVZqLZb811mDMShpLu/UI-design-Sportify-FR?node-id=0%3A1)
