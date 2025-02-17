@@ -1,5 +1,13 @@
 # P12 - Tableau de bord SportSee
 
+## Technologies utilisées
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,vite,figma,recharts,github,html,js,nodejs,postman,vscode" />
+  </a>
+</p>
+
 ## Documentation
 
 - [Figma](https://www.figma.com/file/BMomGVZqLZb811mDMShpLu/UI-design-Sportify-FR?node-id=0%3A1)
