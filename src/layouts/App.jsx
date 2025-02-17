@@ -15,7 +15,7 @@ export default function App() {
         <>
             <Nav />
             <SideNav />
-
+            <Outlet />
         </>
     );
 }

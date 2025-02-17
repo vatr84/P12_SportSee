@@ -10,7 +10,8 @@ import { Router as Routes } from './routes/router';
  * @param {string} elementId - The element ID.
  * @returns {void}
  */
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+ReactDOM.createRoot(rootElement).render(
   <StrictMode>
     <Routes />
   </StrictMode>
