@@ -16,7 +16,7 @@
 git clone https://github.com/OpenClassrooms-Student-Center/SportSee.git
 ```
 
-2. Prérequis
+2. Prérequis :
 
 - [NodeJS](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/)
@@ -42,17 +42,19 @@ yarn dev
 git clone https://github.com/vatr84/P12_SportSee.git
 ```
 
-2. Prérequis
+2. Prérequis :
 
 - [NodeJS](https://nodejs.org/en/)
 
-3. Installer les dépendances :
+3. Accédez au dossier du projet :
+
+4. Installer les dépendances :
 
 ```
 npm install
 ```
 
-4. Lancer le serveur :
+5. Démarrez l'application :
 
 ```
 npm run dev
