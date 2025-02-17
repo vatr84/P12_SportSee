@@ -1,0 +1,46 @@
+.nav {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+
+    padding: var(--spacing-medium);
+    background-color: #020203;
+    color: #fff;
+}
+
+.nav nav {
+    margin: auto;
+}
+.nav .menu {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    list-style: none;
+    margin-inline: auto;
+    justify-content: space-between;
+}
+
+.nav .menu-item {
+    font-size: 1.2em;
+}
+
+.nav .logo {
+    height: 3rem;
+}
+
+@media (min-width: 75rem) {
+    .nav {
+        padding: var(--spacing-large);
+    }
+
+    .nav .menu {
+        width: 50%;
+    }
+
+    .nav .menu-item {
+        font-size: 1.5em;
+    }
+    .nav .logo {
+        height: 3.5rem;
+    }
+}

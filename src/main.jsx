@@ -1,10 +1,17 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import { Router as Routes } from './routes/router'
+import './index.css';
+import { StrictMode } from 'react';
+import ReactDOM from 'react-dom/client';
+import { Router as Routes } from './routes/router';
 
-createRoot(document.getElementById('root')).render(
+/**
+ * Point d'entrée principal de l'application.
+ * Charge les styles et rend le composant principal de l'application dans l'élément 'root'.
+ *
+ * @param {string} elementId - The element ID.
+ * @returns {void}
+ */
+ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Routes />
-  </StrictMode>,
+  </StrictMode>
 )

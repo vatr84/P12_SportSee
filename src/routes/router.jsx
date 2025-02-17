@@ -1,5 +1,5 @@
-import App from '../pages/App'
-import {RouterProvider, createBrowserRouter} from 'react-router'
+import App from '../layouts/App'
+import { RouterProvider, createBrowserRouter } from 'react-router'
 
 export function Router() {
     const router = createBrowserRouter([
