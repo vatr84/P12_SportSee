@@ -8,8 +8,11 @@
   </a>
 </p>
 
-
-- [ViteJS](https://vitejs.dev/) - [React](https://reactjs.org/) - [React Router](https://reactrouter.com/) - [Recharts](https://recharts.org/) - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [ViteJS](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Recharts](https://recharts.org/)
+- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 ## Installation Backend
 
