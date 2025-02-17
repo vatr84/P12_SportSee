@@ -1,8 +1,21 @@
-# React + Vite
+# Tableau de bord SportSee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+1. To clone the Front-end project repo and be able to add your code, please enter the following command:
+
+```
+git clone https://github.com/vatr84/oc-p12-sportsee.git
+```
+
+2. Prerequisites
+
+- [NodeJS](https://nodejs.org/en/)
+
+3. Installez toutes les dépendances avec la commande suivante :
+
+```
+npm install
+```
