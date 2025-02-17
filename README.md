@@ -7,7 +7,7 @@
 1. Pour cloner le dépôt du projet Front-end et pouvoir ajouter votre code, veuillez saisir la commande suivante :
 
 ```
-git clone https://github.com/vatr84/oc-p12-sportsee.git
+git clone https://github.com/vatr84/P12_SportSee.git
 ```
 
 2. Prérequis
