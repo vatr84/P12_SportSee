@@ -23,5 +23,5 @@ npm install
 ## Liste des dépendances qui seront installées:
 
 - [React.js](https://fr.reactjs.org/) est une bibliothèque JavaScript permettant de créer des interfaces utilisateur.
-- [React-router](https://www.npmjs.com/package/react-router) is a package used to create links for using React Router in web applications.
-- [Recharts](https://recharts.org/en-US) is a React-based charting library of components for creating data charts and visualizations. It provides a wide variety of commonly used chart types such as bar charts, pie charts, line charts, maps, etc.
+- [React-router](https://www.npmjs.com/package/react-router) est un package utilisé pour créer des liens permettant d'utiliser React Router dans des applications Web.
+- [Recharts](https://recharts.org/en-US) est une bibliothèque de composants graphiques basée sur React pour créer des graphiques et des visualisations de données. Elle fournit une grande variété de types de graphiques couramment utilisés tels que les graphiques à barres, les graphiques à secteurs, les graphiques linéaires, les cartes, etc.
