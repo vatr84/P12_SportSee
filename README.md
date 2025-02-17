@@ -8,6 +8,9 @@
   </a>
 </p>
 
+
+- [ViteJS](https://vitejs.dev/) - [React](https://reactjs.org/) - [React Router](https://reactrouter.com/) - [Recharts](https://recharts.org/) - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
 ## Installation Backend
 
 1. Cloner le dépôt :
@@ -73,10 +76,7 @@ npm run dev
 
 ## Utilisation
 
-L'application fonctionne en utilisant un mock de l'API ainsi que les vraies données API. Deux utilisateurs sont disponibles : 12 et 18. En modifiant le fichier `.env`, vous pouvez basculer entre le mode développement (mock) `VITE_APP_USE_MOCKED_DATA=true` 
-
-et production (API) `VITE_APP_USE_MOCKED_DATA=false`.
-
+L'application fonctionne en utilisant un mock de l'API ainsi que les vraies données API. Deux utilisateurs sont disponibles : 12 et 18. En modifiant le fichier `.env`, vous pouvez basculer entre le mode développement (mock) `VITE_APP_USE_MOCKED_DATA=true` et production (API) `VITE_APP_USE_MOCKED_DATA=false`.
 
 ## Ressources
 
