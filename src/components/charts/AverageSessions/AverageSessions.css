@@ -1,0 +1,53 @@
+.averageSessions {
+    position: relative;
+    background-color: var(--color-primary);
+    border-radius: var(--radius-small);
+    padding: 0;
+    aspect-ratio: 1 / 1;
+}
+
+.averageSessions h2 {
+    position: absolute;
+
+    top: var(--spacing-large);
+    left: var(--spacing-large);
+
+    max-width: 152px;
+
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-neutral-0);
+    opacity: 0.5;
+}
+
+/* .averageSessions .recharts-cartesian-axis {
+    position: absolute;
+} */
+
+/* .averageSessions .recharts-cartesian-axis-tick:last-of-type {
+    display: none;
+} */
+
+.averageSessions .dot {
+    fill: #ffffff !important;
+}
+
+.averageSessions .custom-tooltip {
+    color: #020203;
+    background: #ffffff;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.averageSessions .cursorShadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+}
