@@ -1,6 +1,12 @@
 # P12 - Tableau de bord SportSee
 
-<img src ="./src/assets/SportSee.PNG" title = "SportSee Dashboard" alt = "SportSee Dashboard" />
+<img src ="src\assets\SportSee.png" title = "SportSee Dashboard" alt = "SportSee Dashboard" />
+
+## Objectifs
+
+- Intégrer des graphiques et des diagrammes pour représenter les données sportives.
+- Développer la page profil de l'utilisateur en affichant des statistiques claires et interactives.
+- Assurer l'interaction avec une API pour récupérer et afficher les données en temps réel.
 
 ## Technologies utilisées
 
