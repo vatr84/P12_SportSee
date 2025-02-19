@@ -1,5 +1,7 @@
 # P12 - Tableau de bord SportSee
 
+<img src ="./src/assets/SportSee.png" title = "SportSee Dashboard" alt = "SportSee Dashboard" />
+
 ## Technologies utilisées
 
 <p align="center">
