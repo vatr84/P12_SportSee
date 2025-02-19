@@ -1,6 +1,6 @@
 # P12 - Tableau de bord SportSee
 
-<img src ="./src/assets/SportSee.png" title = "SportSee Dashboard" alt = "SportSee Dashboard" />
+<img src ="./src/assets/SportSee.PNG" title = "SportSee Dashboard" alt = "SportSee Dashboard" />
 
 ## Technologies utilisées
 
