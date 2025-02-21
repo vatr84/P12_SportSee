@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router'
-import './Nav.css'
+import './HorizontalNav.css'
 import logo from '/logo.svg'
 
 /**
@@ -8,9 +8,9 @@ import logo from '/logo.svg'
  * @returns {JSX.Element} Le composant de navigation rendu.
  *
  * @example
- * return <Nav />
+ * return <HorizontalNav />
  */
-export default function Nav() {
+export default function HorizontalNav() {
     return (
         <nav className="nav" aria-label="Menu principal">
             <Link className="home-link" to="/">

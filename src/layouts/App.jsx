@@ -1,4 +1,4 @@
-import Nav from '../components/Nav/Nav';
+import HorizontalNav from '../components/HorizontalNav/HorizontalNav';
 import SideNav from '../components/SideNav/SideNav';
 import { Outlet } from 'react-router';
 import './App.css';
@@ -13,7 +13,7 @@ import './App.css';
 export default function App() {
     return (
         <>
-            <Nav />
+            <HorizontalNav />
             <SideNav />
             <Outlet />
         </>
