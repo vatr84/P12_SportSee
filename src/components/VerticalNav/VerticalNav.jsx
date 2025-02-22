@@ -1,18 +1,18 @@
 import Icone from '../Icones/Icones'
 import { Link } from 'react-router'
-import './SideNav.css'
+import './VerticalNav.css'
 
 /**
  * Rend une barre de navigation latérale.
  *
- * @returns {JSX.Element} Le composant SideNav rendu.
+ * @returns {JSX.Element} Le composant VerticalNav rendu.
  *
  * @example
- * return <SideNav />
+ * return <VerticalNav />
  */
-export default function SideNav() {
+export default function VerticalNav() {
     return (
-        <aside className="sideNav">
+        <aside className="verticalNav">
             <nav className="sidebar__nav" aria-label="Menu latéral">
                 <ul className="menu">
                     <li className="menu-item">
@@ -49,7 +49,7 @@ export default function SideNav() {
                     </li>
                 </ul>
             </nav>
-            <p className="sideNav__credit">Copyright, SportSee 2020</p>
+            <p className="verticalNav__credit">Copyright, SportSee 2020</p>
         </aside>
     )
 }

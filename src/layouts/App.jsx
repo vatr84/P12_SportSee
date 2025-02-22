@@ -1,5 +1,5 @@
 import HorizontalNav from '../components/HorizontalNav/HorizontalNav';
-import SideNav from '../components/SideNav/SideNav';
+import VerticalNav from '../components/VerticalNav/VerticalNav';
 import { Outlet } from 'react-router';
 import './App.css';
 
@@ -14,7 +14,7 @@ export default function App() {
     return (
         <>
             <HorizontalNav />
-            <SideNav />
+            <VerticalNav />
             <Outlet />
         </>
     );

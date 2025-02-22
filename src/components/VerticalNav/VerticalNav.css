@@ -1,4 +1,4 @@
-.sideNav {
+.verticalNav {
     grid-area: aside;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
     color: var(--color-primary);
 }
 
-.sideNav__credit {
+.verticalNav__credit {
     writing-mode: tb-rl;
     transform: rotate(-180deg);
     font-size: 0.75rem;
