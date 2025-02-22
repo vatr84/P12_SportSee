@@ -1,11 +1,11 @@
 import { getUserData } from '../api/getUserData'
 import Header from '../components/Header/Header'
 import Loader from '../components/Loader/Loader'
-import KeyDatas from '../components/charts/Keydatas/KeyDatas'
-import Activity from '../components/charts/Activity/Activity'
-import AverageSessions from '../components/charts/AverageSessions/AverageSessions'
-import Performances from '../components/charts/Performances/Performances'
-import Score from '../components/charts/Score/Score'
+import KeyDatas from '../components/graphs/Keydatas/KeyDatas'
+import ActivityBarChart from '../components/graphs/ActivityBarChart/ActivityBarChart'
+import AverageSessions from '../components/graphs/AverageSessions/AverageSessions'
+import Performances from '../components/graphs/Performances/Performances'
+import Score from '../components/graphs/Score/Score'
 import { useEffect, useState } from 'react'
 import { Navigate, useParams } from 'react-router'
 import './Profile.css'
@@ -49,7 +49,7 @@ export default function Profile() {
         <main>
             <div className="profil">
                 <Header userId={Number(id)} />
-                <Activity userId={Number(id)} />
+                <ActivityBarChart userId={Number(id)} />
                 <KeyDatas userId={Number(id)} />
                 <AverageSessions userId={Number(id)} />
                 <Performances userId={Number(id)} />

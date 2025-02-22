@@ -11,7 +11,7 @@ import {
     XAxis,
     YAxis,
 } from 'recharts'
-import './Activity.css'
+import './ActivityBarChart.css'
 
 /**
  * Récupère les données de session pour l'activité d'un utilisateur.
@@ -47,12 +47,12 @@ const legendValue = (value) => {
 }
 
 /**
- * Rend le composant Activity.
+ * Rend le composant ActivityBarChart.
  * @param {Object} props - Les props du composant.
  * @param {number} props.userId - L'ID de l'utilisateur.
  * @returns {JSX.Element} - Le composant rendu.
  */
-export default function Activity({ userId = 0 }) {
+export default function ActivityBarChart({ userId = 0 }) {
     const [userActivity, setUserActivity] = useState({ sessions: [] })
 
     useEffect(() => {
@@ -167,6 +167,6 @@ export default function Activity({ userId = 0 }) {
 }
 
 // Définition des PropTypes
-Activity.propTypes = {
+ActivityBarChart.propTypes = {
     userId: PropTypes.number.isRequired,
 }
