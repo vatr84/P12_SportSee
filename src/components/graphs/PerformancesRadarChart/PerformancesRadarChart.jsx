@@ -9,17 +9,17 @@ import {
     RadarChart,
     ResponsiveContainer,
 } from 'recharts'
-import './Performances.css'
+import './PerformancesRadarChart.css'
 
 /**
- * Rend le composant Performances.
+ * Rend le composant PerformancesRadarChart.
  *
  * @component
  * @param {Object} props - Les props du composant.
  * @param {number} [props.userId=0] - L'ID de l'utilisateur.
- * @returns {JSX.Element} Le composant Performances rendu.
+ * @returns {JSX.Element} Le composant PerformancesRadarChart rendu.
  */
-export default function Performances({ userId = 0 }) {
+export default function PerformancesRadarChart({ userId = 0 }) {
     const [userPerformances, setUserPerformances] = useState([])
 
     useEffect(() => {
@@ -98,6 +98,6 @@ export default function Performances({ userId = 0 }) {
 }
 
 // Définition des PropTypes
-Performances.propTypes = {
+PerformancesRadarChart.propTypes = {
     userId: PropTypes.number,
 }

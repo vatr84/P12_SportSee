@@ -4,7 +4,7 @@ import Loader from '../components/Loader/Loader'
 import KeyDatas from '../components/graphs/Keydatas/KeyDatas'
 import ActivityBarChart from '../components/graphs/ActivityBarChart/ActivityBarChart'
 import AverageSessionsLineChart from '../components/graphs/AverageSessionsLineChart/AverageSessionsLineChart'
-import Performances from '../components/graphs/Performances/Performances'
+import PerformancesRadarChart from '../components/graphs/PerformancesRadarChart/PerformancesRadarChart'
 import Score from '../components/graphs/Score/Score'
 import { useEffect, useState } from 'react'
 import { Navigate, useParams } from 'react-router'
@@ -52,7 +52,7 @@ export default function Profile() {
                 <ActivityBarChart userId={Number(id)} />
                 <KeyDatas userId={Number(id)} />
                 <AverageSessionsLineChart userId={Number(id)} />
-                <Performances userId={Number(id)} />
+                <PerformancesRadarChart userId={Number(id)} />
                 <Score userId={Number(id)} />
             </div>
         </main>
