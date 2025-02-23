@@ -3,7 +3,7 @@ import Header from '../components/Header/Header'
 import Loader from '../components/Loader/Loader'
 import KeyDatas from '../components/graphs/Keydatas/KeyDatas'
 import ActivityBarChart from '../components/graphs/ActivityBarChart/ActivityBarChart'
-import AverageSessions from '../components/graphs/AverageSessions/AverageSessions'
+import AverageSessionsLineChart from '../components/graphs/AverageSessionsLineChart/AverageSessionsLineChart'
 import Performances from '../components/graphs/Performances/Performances'
 import Score from '../components/graphs/Score/Score'
 import { useEffect, useState } from 'react'
@@ -51,7 +51,7 @@ export default function Profile() {
                 <Header userId={Number(id)} />
                 <ActivityBarChart userId={Number(id)} />
                 <KeyDatas userId={Number(id)} />
-                <AverageSessions userId={Number(id)} />
+                <AverageSessionsLineChart userId={Number(id)} />
                 <Performances userId={Number(id)} />
                 <Score userId={Number(id)} />
             </div>

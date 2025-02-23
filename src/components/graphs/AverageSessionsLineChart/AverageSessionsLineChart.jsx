@@ -10,7 +10,7 @@ import {
     XAxis,
     YAxis,
 } from 'recharts'
-import './AverageSessions.css'
+import './AverageSessionsLineChart.css'
 
 /**
  * Composant CustomizedTooltip.
@@ -87,12 +87,12 @@ ActiveDot.propTypes = {
 }
 
 /**
- * Rend le composant AverageSessions.
+ * Rend le composant AverageSessionsLineChart.
  * @param {Object} props - Les props du composant.
  * @param {number} props.userId - L'ID de l'utilisateur.
- * @returns {JSX.Element} Le composant AverageSessions rendu.
+ * @returns {JSX.Element} Le composant AverageSessionsLineChart rendu.
  */
-export default function AverageSessions({ userId = 0 }) {
+export default function AverageSessionsLineChart({ userId = 0 }) {
     const [userAverageSessions, setUserAverageSessions] = useState({
         sessions: [],
     })
@@ -227,6 +227,6 @@ export default function AverageSessions({ userId = 0 }) {
 }
 
 // Définition des PropTypes
-AverageSessions.propTypes = {
+AverageSessionsLineChart.propTypes = {
     userId: PropTypes.number.isRequired,
 }
