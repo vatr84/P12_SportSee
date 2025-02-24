@@ -7,7 +7,7 @@ import {
     RadialBarChart,
     ResponsiveContainer,
 } from 'recharts'
-import './Score.css'
+import './ScoreRadialBarChart.css'
 
 /**
  * Le composant Score affiche le score de l'utilisateur sous forme de graphique en barres radiales.
@@ -15,7 +15,7 @@ import './Score.css'
  * @param {string} props.userId - L'ID de l'utilisateur.
  * @returns {JSX.Element} - Le composant rendu.
  */
-export default function Score({ userId }) {
+export default function ScoreRadialBarChart({ userId }) {
     const [score, setScore] = useState(0)
 
     useEffect(() => {
@@ -90,6 +90,6 @@ export default function Score({ userId }) {
 }
 
 // Définition des PropTypes
-Score.propTypes = {
+ScoreRadialBarChart.propTypes = {
     userId: PropTypes.number.isRequired,
 }
