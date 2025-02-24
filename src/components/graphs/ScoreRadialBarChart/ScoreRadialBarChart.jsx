@@ -13,7 +13,7 @@ import './ScoreRadialBarChart.css'
  * Le composant Score affiche le score de l'utilisateur sous forme de graphique en barres radiales.
  * @param {Object} props - Les props du composant.
  * @param {string} props.userId - L'ID de l'utilisateur.
- * @returns {JSX.Element} - Le composant rendu.
+ * @returns {JSX.Element} - Le composant ScoreRadialBarChart rendu.
  */
 export default function ScoreRadialBarChart({ userId }) {
     const [score, setScore] = useState(0)
