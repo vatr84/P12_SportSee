@@ -21,14 +21,6 @@
     opacity: 0.5;
 }
 
-/* .averageSessions .recharts-cartesian-axis {
-    position: absolute;
-} */
-
-/* .averageSessions .recharts-cartesian-axis-tick:last-of-type {
-    display: none;
-} */
-
 .averageSessions .dot {
     fill: #ffffff !important;
 }
