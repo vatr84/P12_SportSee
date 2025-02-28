@@ -1,0 +1,19 @@
+.error {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    gap: var(--spacing-medium);
+}
+
+.error h1 {
+    margin: 0;
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--color-primary);
+}
+
+.error p {
+    font-size: 1.25rem;
+    margin: 0;
+}

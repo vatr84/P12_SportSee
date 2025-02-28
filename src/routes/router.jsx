@@ -2,6 +2,7 @@ import App from '../layouts/App'
 import { Navigate, RouterProvider, createBrowserRouter } from 'react-router'
 import NotFound from '../pages/NotFound'
 import Profile from '../pages/Profile'
+import ErrorPage from '../pages/ErrorPage'
 
 /**
  * Router component. Defines the application routes.
@@ -23,8 +24,8 @@ export function Router() {
                     element: <Profile />,
                 },
                 {
-                    path: '/404',
-                    element: <NotFound />,
+                    path: '/error',
+                    element: <ErrorPage />,
                 },
                 {
                     path: '*', // Pour toutes les autres routes non définies
